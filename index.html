@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tesla_model">
+        <div class="container">
+            <div class="tesla_image">
+                <img src="images/wheel19.png" class="wheel" id="first" alt="">
+                <img src="images/wheel19.png" class="wheel" id="second" alt="">
+                <img src="images/tesla_image2.png   " alt="" class="tesla_img">
+                <div class="door">
+                    <img src="images/door.png" alt="">
+                </div>
+            </div>
+            <div class="tesla_salon"></div>
+
+            <div class="car_info">
+                <div class="main_info">
+                    <div class="battery">
+                        <p class="subtitle">Запас хода</p>
+                        <h1 class="title"> <span>750</span>км</h1>
+                    </div>
+                    <div class="price">
+                        <p class="subtitle">Цена</p>
+                        <h1 class="title" id="price">$89, 990</h1>
+                    </div>
+                </div>
+
+                <div class="model_info">
+                    <div class="info">
+                        <div class="info_box">
+                            <p class="info_subtitle">Скорость автомобиля</p>
+                            <p class="info_title"> <span>60</span> км/ч</p>
+                        </div>
+                        <div class="buttons">
+                            <button class="up btn"><img src="images/up.png" alt=""></button>
+                            <button class="down btn"><img src="images/down.png" alt=""></button>
+                        </div>
+                    </div>
+
+
+
+                    <div class="info">
+                        <div class="info_box">
+                            <p class="info_subtitle">Температура за окнами</p>
+                            <p class="info_title"> <span class="temp">20</span>°</p>
+                        </div>
+                        <div class="buttons">
+                            <button class="up btn" id="temp_up"><img src="images/up.png" alt=""></button>
+                            <button class="down btn" id="temp_down"><img src="images/down.png" alt=""></button>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div class="info_box">
+                            <p class="info_subtitle">Диски</p>
+                            <p class="info_title"><span class="disk">19</span></p>
+                        </div>
+                        <div class="buttons">
+                            <button class="up btn" id="disk_up"><img src="images/up.png" alt=""></button>
+                            <button class="down btn" id="disk_down"><img src="images/down.png" alt=""></button>
+                        </div>
+                    </div>
+
+                    <div class="salon_color">
+                        <button class="color" data-color="black"></button>
+                        <button class="color" data-color="white"></button>
+                        <button class="color" data-color="gold"></button>
+                    </div>
+
+
+                    <div class="switcher hide">
+                        <p class="subtitle">Кондиционер</p>
+                        <div class="switch">
+                            <input type="checkbox" id="toggle1" class="toggle-checkbox air ">
+                            <label for="toggle1" class="toggle-label"></label>
+                        </div>
+                    </div>
+                    <div class="switcher hide">
+                        <p class="subtitle">Версия Long Range</p>
+                        <div class="switch">
+                            <input type="checkbox" id="toggle2" class="toggle-checkbox long_range ">
+                            <label for="toggle2" class="toggle-label"></label>
+                        </div>
+                    </div>
+                    <div class="switcher">
+                        <p class="subtitle">Вид автомобиля</p>
+                        <div class="switch">
+                            <input type="checkbox" checked id="toggle3" class="toggle-checkbox open">
+                            <label for="toggle3" class="toggle-label"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
